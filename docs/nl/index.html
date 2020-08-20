@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Free Online Dutch Spell Check Service</title>
+<meta charset="utf-8">
+<meta name="Viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Free online Dutch spell checker helps to find and correct spelling mistakes in Dutch texts. Spellingscontrole nederlands." />
+<meta name="Кeywords" content="spell check, online spell check, free spell check, spellcheck, dutch, nederlands" />
+<meta name="Robots" content="index,follow" />
+<script src="/AJS.js"></script>
+<script src="/googiespell.js"></script>
+<script src="/cookiesupport.js"></script>
+<link rel="Stylesheet" type="text/css" href="/googiespell.css" />
+<link rel="Stylesheet" type="text/css" href="/style.css" />
+<link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2783203-18"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-2783203-18');
+</script>
+</head>
+<body>
+<h1><a href="/" style="text-decoration: none; color: #333;">Dutch Spell Check</a></h1>
+<div align="center">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<!-- 120x240 #1 -->
+</td>
+<td valign="top">
+
+<form action="">
+<textarea id="txt" class="textarea" rows="" cols=""></textarea>
+<br /><br /><span id="spell_container"></span>
+</form>
+<script type="text/javascript">
+document.getElementById("txt").focus();
+var spellcheck = new GoogieSpell("/", "https://nl.spellcheck.cc/sendReq.php?lang=");
+spellcheck.setLanguages({'nl': 'Dutch'});
+spellcheck.setCurrentLanguage('nl');
+spellcheck.dontUseCloseButtons();
+spellcheck.show_change_lang_pic = false;
+spellcheck.setSpellContainer("spell_container");
+spellcheck.decorateTextarea("txt");
+</script>
+<br /><br />
+
+</td>
+<td>
+<!-- 120x240 #2 -->
+</td>
+</tr>
+</table>
+
+<a href="https://spellcheck.cc/" title="Online Spell Check">Spell Checker</a> | <a href="https://spellcheck.cc/terms" title="Terms of Service">Terms of Service</a> | <a href="https://spellcheck.cc/privacy" title="Privacy Policy">Privacy Policy</a> | <a href="https://spellcheck.cc/about" title="About This Service">About</a> | <a href="https://spellcheck.cc/contact" title="Contact Us">Contact</a>
+</div>
+</body>
+</html>
