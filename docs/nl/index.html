@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +22,7 @@ gtag('config', 'UA-2783203-18');
 </script>
 </head>
 <body>
-<h1><a href="/" style="text-decoration: none; color: #333;">Dutch Spell Check</a></h1>
+<h1><a href="/nl/" style="text-decoration: none; color: #333;">Dutch Spell Check</a></h1>
 <div align="center">
 <table cellspacing="0" cellpadding="0" border="0">
 <tr>
@@ -38,7 +37,7 @@ gtag('config', 'UA-2783203-18');
 </form>
 <script type="text/javascript">
 document.getElementById("txt").focus();
-var spellcheck = new GoogieSpell("/", "https://nl.spellcheck.cc/sendReq.php?lang=");
+var spellcheck = new GoogieSpell("/images/", "https://nl.spellcheck.cc/sendReq.php?lang=");
 spellcheck.setLanguages({'nl': 'Dutch'});
 spellcheck.setCurrentLanguage('nl');
 spellcheck.dontUseCloseButtons();
@@ -55,6 +54,7 @@ spellcheck.decorateTextarea("txt");
 </tr>
 </table>
 
+<p><a href="/en/" title="English Spell Checker">en</a> &bull; <a href="/de/" title="German Spell Checker">de</a> &bull; <a href="/fr/" title="French Spell Checker">fr</a> &bull; <a href="/es/" title="Spanish Spell Checker">es</a> &bull; <a href="/it/" title="Italian Spell Checker">it</a> &bull; <a href="/pt/" title="Portuguese Spell Checker">pt</a> &bull; <a href="/ru/" title="Russian Spell Checker">ru</a> &bull; <a href="/pl/" title="Polish Spell Checker">pl</a> &bull; <a href="/nl/" title="Dutch Spell Checker">nl</a> &bull; <a href="/sv/" title="Swedish Spell Checker">sv</a> &bull; <a href="/da/" title="Danish Spell Checker">da</a> &bull; <a href="/fi/" title="Finnish Spell Checker">fi</a></p>
 <a href="https://spellcheck.cc/" title="Online Spell Check">Spell Checker</a> | <a href="https://spellcheck.cc/terms" title="Terms of Service">Terms of Service</a> | <a href="https://spellcheck.cc/privacy" title="Privacy Policy">Privacy Policy</a> | <a href="https://spellcheck.cc/about" title="About This Service">About</a> | <a href="https://spellcheck.cc/contact" title="Contact Us">Contact</a>
 </div>
 </body>
