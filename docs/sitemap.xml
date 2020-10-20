@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://spellcheck.cc/</loc>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/en</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/de</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/fr</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/es</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/it</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/pt</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/ru</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/pl</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/nl</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/sv</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/da</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/fi</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/terms</loc>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/privacy</loc>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/about</loc>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://spellcheck.cc/contact</loc>
+	<priority>0.5</priority>
+</url>
+</urlset>
