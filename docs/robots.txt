@@ -1,3 +1,4 @@
+Sitemap: https://spellcheck.cc/sitemap.xml
+
 User-agent: *
 Disallow: /sendReq.php
-
