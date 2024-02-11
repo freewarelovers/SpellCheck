@@ -1,7 +1,19 @@
-// Sample dictionary of correct words
-const dictionary = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'lazy', 'dog'];
+let dictionary = []; // Will hold the dictionary words after loading
 
-// Function to check the spelling of words in the text input
+// Function to load the dictionary from an external file
+function loadDictionary() {
+    fetch('dict-en.txt')
+        .then(response => response.text())
+        .then(text => {
+            dictionary = text.split(/\r?\n/); // Split the file content into an array of words
+        })
+        .catch(error => console.error('Error loading the dictionary:', error));
+}
+
+// Call loadDictionary at the start to ensure the dictionary is loaded
+loadDictionary();
+
+// Adjusted function to check the spelling of words in the text input
 function checkSpelling() {
     const textInput = document.getElementById('textInput').value;
     const words = textInput.split(/\s+/); // Split input text into words
@@ -17,13 +29,4 @@ function checkSpelling() {
     });
 }
 
-// Function to suggest corrections for a misspelled word
-function suggestCorrection(word) {
-    // This is a placeholder for a more sophisticated correction algorithm
-    // For now, it simply checks if removing the last character fixes the spelling
-    const trimmedWord = word.slice(0, -1);
-    if (dictionary.includes(trimmedWord.toLowerCase())) {
-        return trimmedWord;
-    }
-    return null;
-}
+// Your suggestCorrection function remains the same
