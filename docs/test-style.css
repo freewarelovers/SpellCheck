@@ -1,0 +1,8 @@
+#textArea {
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
